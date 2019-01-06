@@ -1,0 +1,10 @@
+curl -X POST --header "Authorization: key=AAAA97A-8u8:APA91bEXjyWO_lTOpvWiXjSoqv21HN__l1XTZA_HZuSbxpcU0LsB1wJJIOCQrS6kmsOWhv3ONTfdr7wPUWet9r20gIseAUi_B21QTE1UDZDvafiMXMwbtLbWKyTjFDwWcvOUOLvD6MiL" --Header "Content-Type: application/json" https://fcm.googleapis.com/fcm/send -d "{\"to\":\"f2eFlNmHjNM:APA91bFePLRh12Ml606KevS_2VYlLyDs6NTBOUcF_rebboKP-02NgIe1xuFYCwkf-OWzOZ4NuDIaQM_1p4NpEXLenRWW4B7ReXof5_TxZ6c9JUZEpP7uWxiRvToyN6I3vyYRu3oAzgc7\",\"notification\":{\"body\":\"Yellow\"},\"priority\":10}"
+
+
+
+curl -H "Content-type: application/json" -H "Authorization:key=AAAA97A-8u8:APA91bEXjyWO_lTOpvWiXjSoqv21HN__l1XTZA_HZuSbxpcU0LsB1wJJIOCQrS6kmsOWhv3ONTfdr7wPUWet9r20gIseAUi_B21QTE1UDZDvafiMXMwbtLbWKyTjFDwWcvOUOLvD6MiL"  -X POST -d '{ "data": { "score": "5x1","time": "15:10"},"to" : "f2eFlNmHjNM:APA91bFePLRh12Ml606KevS_2VYlLyDs6NTBOUcF_rebboKP-02NgIe1xuFYCwkf-OWzOZ4NuDIaQM_1p4NpEXLenRWW4B7ReXof5_TxZ6c9JUZEpP7uWxiRvToyN6I3vyYRu3oAzgc7"}' https://fcm.googleapis.com/fcm/send
+
+
+
+
+LA PRIMA FUNZIONA SICURO
